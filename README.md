@@ -5,4 +5,4 @@ This repo is meant for convictional Engineering Challenge
 
 ## To Start
 
-![docker build](https://img.shields.io/badge/docker-build-brightblue.svg) 
+![docker build](https://img.shields.io/badge/docker-build-blue.svg) 
