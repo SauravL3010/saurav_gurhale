@@ -125,7 +125,7 @@ const getProductById = async (req, res) => {
     const fetch_res = [await fetch_meta.json()]
 
     if (Object.keys(fetch_res[0]).length !== 0) {
-        return res.status(200).json(fetch_res.map(f => ret(f)))
+        return res.status(200).json(fetch_res.map(f => products(f)))
     } 
     if (_id.length !== 10) {
         return res.status(400).json({
